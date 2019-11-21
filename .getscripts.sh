@@ -9,7 +9,7 @@ then
     s=${line:16:-1};
     mkdir -p content/scripts
     cd content/scripts
-    curl -O $s
+    curl -O -L $s
     cd -
   fi
 else
