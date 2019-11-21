@@ -1,0 +1,3 @@
+[submodule "content\\Steam-Economy-Enhancer"]
+	path = content\\Steam-Economy-Enhancer
+	url = https://github.com/Nuklon/Steam-Economy-Enhancer.git
