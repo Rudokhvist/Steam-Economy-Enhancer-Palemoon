@@ -1,0 +1,25 @@
+{
+	"name": "Steam-Economy-Enhancer",
+	"version": "6.8.1",
+	"description": "Enhances the Steam Inventory and Steam Market.",
+	"content_scripts": [{
+		"matches": [
+			"*://steamcommunity.com/id/*/inventory*",
+			"*://steamcommunity.com/profiles/*/inventory*",
+			"*://steamcommunity.com/market*",
+			"*://steamcommunity.com/tradeoffer*"
+		],
+		"js": [
+			"scripts/jquery-3.3.1.min.js",
+			"scripts/jquery-ui.min.js",
+			"scripts/jquery-observe.js",
+			"scripts/pagination.min.js",
+			"scripts/async.js",
+			"scripts/localforage.min.js",
+			"scripts/luxon.min.js",
+			"scripts/list.js",
+			"scripts/jquery.checkboxes-1.2.2.min.js",
+			"Steam-Economy-Enhancer/code.user.js"
+		]
+	}]
+}
