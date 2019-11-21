@@ -1,0 +1,3 @@
+content SEE content/ contentaccessible=yes
+resource SEE content/
+overlay chrome://browser/content/browser.xul chrome://SEE/content/overlay.xul
